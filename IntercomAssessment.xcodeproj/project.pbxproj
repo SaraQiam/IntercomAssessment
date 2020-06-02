@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2706E5A6248363BA00D0815C /* InviteCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706E5A5248363BA00D0815C /* InviteCustomerViewController.swift */; };
+		2706E5A82484599200D0815C /* CalculateDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706E5A72484599200D0815C /* CalculateDistance.swift */; };
+		2706E5AA24847AF200D0815C /* InviteCustomerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706E5A924847AF200D0815C /* InviteCustomerViewModel.swift */; };
+		2706E5AC2484A6BD00D0815C /* testDegreesToRadian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706E5AB2484A6BD00D0815C /* testDegreesToRadian.swift */; };
+		2706E5AE2484B10700D0815C /* testCalculateDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706E5AD2484B10700D0815C /* testCalculateDistance.swift */; };
+		2706E5B024858F2D00D0815C /* ReadFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706E5AF24858F2D00D0815C /* ReadFile.swift */; };
+		2706E5B224859E3000D0815C /* testReadFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706E5B124859E3000D0815C /* testReadFile.swift */; };
+		2706E5B62485A14500D0815C /* Test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2706E5B52485A14500D0815C /* Test.txt */; };
+		2706E5BC2485B10F00D0815C /* Empty.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2706E5BB2485B10F00D0815C /* Empty.txt */; };
 		277B8DC82481A05E00812106 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B8DC72481A05E00812106 /* AppDelegate.swift */; };
 		277B8DCA2481A05E00812106 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B8DC92481A05E00812106 /* SceneDelegate.swift */; };
-		277B8DCC2481A05E00812106 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B8DCB2481A05E00812106 /* ViewController.swift */; };
 		277B8DCF2481A05E00812106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277B8DCD2481A05E00812106 /* Main.storyboard */; };
 		277B8DD12481A05F00812106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277B8DD02481A05F00812106 /* Assets.xcassets */; };
 		277B8DD42481A05F00812106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277B8DD22481A05F00812106 /* LaunchScreen.storyboard */; };
 		277B8DDF2481A05F00812106 /* IntercomAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B8DDE2481A05F00812106 /* IntercomAssessmentTests.swift */; };
+		277B8DEE2481B58100812106 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B8DED2481B58100812106 /* Customer.swift */; };
+		277B8DF02481BA8700812106 /* customers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 277B8DEF2481BA8700812106 /* customers.txt */; };
+		277B8DF32481C11400812106 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B8DF22481C11400812106 /* Converter.swift */; };
+		277B8DF52481C3A800812106 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B8DF42481C3A800812106 /* Constants.swift */; };
+		277B8DF82481C8B500812106 /* CustomerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B8DF72481C8B500812106 /* CustomerService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2706E5A5248363BA00D0815C /* InviteCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteCustomerViewController.swift; sourceTree = "<group>"; };
+		2706E5A72484599200D0815C /* CalculateDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateDistance.swift; sourceTree = "<group>"; };
+		2706E5A924847AF200D0815C /* InviteCustomerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteCustomerViewModel.swift; sourceTree = "<group>"; };
+		2706E5AB2484A6BD00D0815C /* testDegreesToRadian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testDegreesToRadian.swift; sourceTree = "<group>"; };
+		2706E5AD2484B10700D0815C /* testCalculateDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCalculateDistance.swift; sourceTree = "<group>"; };
+		2706E5AF24858F2D00D0815C /* ReadFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFile.swift; sourceTree = "<group>"; };
+		2706E5B124859E3000D0815C /* testReadFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testReadFile.swift; sourceTree = "<group>"; };
+		2706E5B52485A14500D0815C /* Test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test.txt; sourceTree = "<group>"; };
+		2706E5BB2485B10F00D0815C /* Empty.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Empty.txt; sourceTree = "<group>"; };
 		277B8DC42481A05E00812106 /* IntercomAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntercomAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		277B8DC72481A05E00812106 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		277B8DC92481A05E00812106 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		277B8DCB2481A05E00812106 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		277B8DCE2481A05E00812106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		277B8DD02481A05F00812106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		277B8DD32481A05F00812106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +59,11 @@
 		277B8DDA2481A05F00812106 /* IntercomAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntercomAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		277B8DDE2481A05F00812106 /* IntercomAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercomAssessmentTests.swift; sourceTree = "<group>"; };
 		277B8DE02481A05F00812106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277B8DED2481B58100812106 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		277B8DEF2481BA8700812106 /* customers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = customers.txt; sourceTree = "<group>"; };
+		277B8DF22481C11400812106 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		277B8DF42481C3A800812106 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		277B8DF72481C8B500812106 /* CustomerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2706E5A42483445000D0815C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2706E5A5248363BA00D0815C /* InviteCustomerViewController.swift */,
+				2706E5A924847AF200D0815C /* InviteCustomerViewModel.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		277B8DBB2481A05E00812106 = {
 			isa = PBXGroup;
 			children = (
@@ -79,12 +114,14 @@
 		277B8DC62481A05E00812106 /* IntercomAssessment */ = {
 			isa = PBXGroup;
 			children = (
+				2706E5A42483445000D0815C /* ViewControllers */,
+				277B8DF62481C88A00812106 /* Service */,
+				277B8DF12481BF0400812106 /* Helpers */,
+				277B8DEC2481B51800812106 /* Resources */,
+				277B8DEB2481B4B500812106 /* Model */,
+				277B8DEA2481B44D00812106 /* View */,
 				277B8DC72481A05E00812106 /* AppDelegate.swift */,
 				277B8DC92481A05E00812106 /* SceneDelegate.swift */,
-				277B8DCB2481A05E00812106 /* ViewController.swift */,
-				277B8DCD2481A05E00812106 /* Main.storyboard */,
-				277B8DD02481A05F00812106 /* Assets.xcassets */,
-				277B8DD22481A05F00812106 /* LaunchScreen.storyboard */,
 				277B8DD52481A05F00812106 /* Info.plist */,
 			);
 			path = IntercomAssessment;
@@ -95,8 +132,58 @@
 			children = (
 				277B8DDE2481A05F00812106 /* IntercomAssessmentTests.swift */,
 				277B8DE02481A05F00812106 /* Info.plist */,
+				2706E5AB2484A6BD00D0815C /* testDegreesToRadian.swift */,
+				2706E5AD2484B10700D0815C /* testCalculateDistance.swift */,
+				2706E5B124859E3000D0815C /* testReadFile.swift */,
 			);
 			path = IntercomAssessmentTests;
+			sourceTree = "<group>";
+		};
+		277B8DEA2481B44D00812106 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				277B8DD22481A05F00812106 /* LaunchScreen.storyboard */,
+				277B8DCD2481A05E00812106 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		277B8DEB2481B4B500812106 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				277B8DED2481B58100812106 /* Customer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		277B8DEC2481B51800812106 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2706E5B52485A14500D0815C /* Test.txt */,
+				2706E5BB2485B10F00D0815C /* Empty.txt */,
+				277B8DEF2481BA8700812106 /* customers.txt */,
+				277B8DD02481A05F00812106 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		277B8DF12481BF0400812106 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				277B8DF22481C11400812106 /* Converter.swift */,
+				277B8DF42481C3A800812106 /* Constants.swift */,
+				2706E5A72484599200D0815C /* CalculateDistance.swift */,
+				2706E5AF24858F2D00D0815C /* ReadFile.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		277B8DF62481C88A00812106 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				277B8DF72481C8B500812106 /* CustomerService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +267,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2706E5BC2485B10F00D0815C /* Empty.txt in Resources */,
+				277B8DF02481BA8700812106 /* customers.txt in Resources */,
+				2706E5B62485A14500D0815C /* Test.txt in Resources */,
 				277B8DD42481A05F00812106 /* LaunchScreen.storyboard in Resources */,
 				277B8DD12481A05F00812106 /* Assets.xcassets in Resources */,
 				277B8DCF2481A05E00812106 /* Main.storyboard in Resources */,
@@ -200,9 +290,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				277B8DCC2481A05E00812106 /* ViewController.swift in Sources */,
+				277B8DEE2481B58100812106 /* Customer.swift in Sources */,
+				2706E5AA24847AF200D0815C /* InviteCustomerViewModel.swift in Sources */,
 				277B8DC82481A05E00812106 /* AppDelegate.swift in Sources */,
+				277B8DF52481C3A800812106 /* Constants.swift in Sources */,
+				2706E5A82484599200D0815C /* CalculateDistance.swift in Sources */,
+				2706E5A6248363BA00D0815C /* InviteCustomerViewController.swift in Sources */,
+				277B8DF82481C8B500812106 /* CustomerService.swift in Sources */,
+				277B8DF32481C11400812106 /* Converter.swift in Sources */,
 				277B8DCA2481A05E00812106 /* SceneDelegate.swift in Sources */,
+				2706E5B024858F2D00D0815C /* ReadFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +308,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				277B8DDF2481A05F00812106 /* IntercomAssessmentTests.swift in Sources */,
+				2706E5B224859E3000D0815C /* testReadFile.swift in Sources */,
+				2706E5AC2484A6BD00D0815C /* testDegreesToRadian.swift in Sources */,
+				2706E5AE2484B10700D0815C /* testCalculateDistance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
